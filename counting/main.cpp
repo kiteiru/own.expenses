@@ -56,16 +56,16 @@ int main(int argc, char *argv[]) {
     in["gifts"] = GIFTS;
     in["other"] = OTHER;
 
-    std::cout << "Enter necessary category:"
-                 "● food"
-                 "● home"
-                 "● pharmacy"
-                 "● cafe"
-                 "● phone"
-                 "● transport"
-                 "● clothes"
-                 "● gifts"
-                 "● other" << std::endl;
+    std::cout << "Enter necessary category:\n"
+                 "● food\n"
+                 "● home\n"
+                 "● pharmacy\n"
+                 "● cafe\n"
+                 "● phone\n"
+                 "● transport\n"
+                 "● clothes\n"
+                 "● gifts\n"
+                 "● other\n" << std::endl;
 
     std::string input;
     std::cin >> input;
